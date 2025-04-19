@@ -1,0 +1,32 @@
+https://github.com/Wirless/NekiroDowngrade/800
+
+
+
+Map Edytor:
+https://github.com/wirless/OTARMEIE
+
+
+Downgrade 772
+https://github.com/Wirless/NekiroDowngrade772
+
+Uniform Server
+https://www.uniformserver.com/
+
+
+Account maker ( gotowy w zipie)
+
+https://github.com/Znote/ZnoteAAC
+
+otcv8 nie skonfigurowany
+https://github.com/OTAcademy/otclientv8
+
+
+key.pem i /modules/gamelib/const.lua << zmiana RSA
+https://ots.me/rsa/
+
+
+Discord:
+Join Idlers Tavern for updated engines and help!
+
+https://discord.gg/BtHj5YqsSz
+
