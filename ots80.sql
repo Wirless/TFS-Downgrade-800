@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;
 
----create player
+
 
 INSERT INTO `accounts` (`id`, `name`, `password`, `secret`, `type`, `premium_ends_at`, `email`, `creation`) VALUES
 (1, '111111', '1496b814280efbf71a79aca70fe88b08a46c3514', NULL, 6, 0, 'osjgojgsojsojsg@o2.pl', 1744963098);
@@ -79,9 +79,7 @@ CREATE TABLE IF NOT EXISTS `players` (
 ) ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;
 
 
---
--- Dumping data for table `players`
---
+
 
 INSERT INTO `players` (`id`, `name`, `group_id`, `account_id`, `level`, `vocation`, `health`, `healthmax`, `experience`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `lookaddons`, `direction`, `maglevel`, `mana`, `manamax`, `manaspent`, `soul`, `town_id`, `posx`, `posy`, `posz`, `conditions`, `cap`, `sex`, `lastlogin`, `lastip`, `save`, `skull`, `skulltime`, `lastlogout`, `blessings`, `onlinetime`, `deletion`, `balance`, `offlinetraining_time`, `offlinetraining_skill`, `stamina`, `skill_fist`, `skill_fist_tries`, `skill_club`, `skill_club_tries`, `skill_sword`, `skill_sword_tries`, `skill_axe`, `skill_axe_tries`, `skill_dist`, `skill_dist_tries`, `skill_shielding`, `skill_shielding_tries`, `skill_fishing`, `skill_fishing_tries`) VALUES
 (1, 'Test', 6, 1, 8, 1, 180, 180, 4200, 68, 76, 78, 58, 128, 0, 2, 66, 5000, 5000, 0, 100, 1, 5, 5, 2, '', 420, 0, 0, 2130706433, 1, 0, 0, 0, 0, 0, 0, 0, 43200, -1, 2520, 10, 0, 10, 0, 10, 0, 60, 5000, 10, 0, 10, 0, 10, 0);
